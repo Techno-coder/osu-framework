@@ -5,7 +5,7 @@ namespace osu.Framework.Platform {
     public class CustomDesktopStorage : DesktopStorage {
         internal static string basePath;
 
-        public CustomDesktopStorage(string baseName)
+        internal CustomDesktopStorage(string baseName)
             : base(baseName) { }
 
         protected override string LocateBasePath() {
